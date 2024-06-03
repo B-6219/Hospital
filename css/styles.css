@@ -1,0 +1,217 @@
+* {
+  padding: 0%;
+  margin: auto;
+  text-decoration: none;
+}
+:root {
+  --luminous: hsl(98, 84%, 47%);
+  --coal: rgb(11, 9, 9);
+  --head: hwb(218 3% 1%);
+  --h: rgb(1, 19, 43);
+  --citrine: hsl(69, 100%, 50%);
+  --main: hsl(198, 81%, 55%);
+  --peace: hsl(0, 0%, 100%);
+  --foot: hsl(194, 81%, 10%);
+}
+i {
+  color: var(--citrine);
+}
+p {
+  font-style: italic;
+  font-size: 10px;
+}
+.user-icon i {
+  align-items: center;
+}
+.user-icon p {
+  text-align: center;
+}
+.user-icon {
+  border: 1px solid;
+  border-radius: 20px;
+  background: var(--main);
+  color: var(--coal);
+}
+body {
+  background-color: var(--coal);
+  color: var(--peace);
+}
+a {
+  text-decoration: none;
+  color: var(--coal);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  background: var(--main);
+}
+header {
+  background-color: var(--peace);
+}
+.head-img img {
+  width: 150px;
+}
+.nav {
+  padding-left: 420px;
+}
+.nav a {
+  padding-left: 10px;
+}
+.nav a:hover {
+  font-family: cursive;
+  color: var(--main);
+}
+.nav select option {
+  color: var(--main);
+  background-color: var(--citrine);
+}
+.nav button {
+  padding-left: 10px;
+  margin-left: 280px;
+  margin-top: 20px;
+}
+/* pro king*/
+.pro-king {
+  background-color: var(--head);
+}
+.pro-king-cont img {
+  height: 300px;
+}
+.pro-king-cont {
+  display: flex;
+}
+.about-king-cont {
+  display: flex;
+}
+.about-king-icons {
+  display: flex;
+}
+.prince-cont {
+  text-align: center;
+}
+.prince-column-1 {
+  width: 300px;
+  height: 200px;
+  border: 1px var(--peace);
+}
+.prince-column-1 .user-icon {
+  width: 100px;
+  padding: 0%;
+  margin: 0%;
+  height: 100px;
+}
+.pricing-princess {
+  background-color: var(--citrine);
+  color: var(--coal);
+}
+.pricing-text {
+  align-items: center;
+  text-align: center;
+}
+.pricing-box {
+  height: 300px;
+  width: 100%;
+  border: 2px solid;
+  display: flex;
+}
+.pricing-image {
+  background-image: url(/gallery/gallery_02.jpg);
+  background-position: top;
+  height: 300px;
+  width: 180px;
+  color: var(--luminous);
+}
+.pricing-image-2 {
+  background-image: url(/gallery/gallery_01.jpg);
+  background-position: top;
+  height: 300px;
+  width: 180px;
+  color: var(--luminous);
+}
+.pricing-image-5 {
+  background-image: url(/gallery/gallery_05.jpg);
+  background-position: top;
+  height: 300px;
+  width: 180px;
+  color: var(--luminous);
+}
+.contact {
+  text-align: center;
+}
+.form {
+  align-items: center;
+  text-align: center;
+}
+.reviews-1 {
+  text-align: center;
+}
+.img-1-reviews {
+  align-items: center;
+  border-radius: 200px;
+  margin-left: 360px;
+  height: 100px;
+  width: 100px;
+}
+.rev {
+  text-align: center;
+}
+.appointment {
+  background-color: var(--main);
+}
+.appoint-left h2 {
+  color: var(--h);
+}
+.appoint-cont {
+  display: flex;
+}
+.appoint-right {
+  border: 1px solid;
+  background-color: var(--peace);
+  width: 380px;
+}
+.form-right label {
+  color: var(--h);
+}
+.form-left label {
+  color: var(--h);
+}
+.appoint-right h5 {
+  color: var(--h);
+  font-style: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19px;
+  padding-left: 80px;
+}
+.btn-right {
+  align-items: center;
+  margin-left: 120px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn-right button {
+  padding: 10px;
+}
+.form-box {
+  height: 250px;
+  width: 350px;
+  display: flex;
+}
+footer {
+  background-color: var(--foot);
+}
+.footer-section {
+  display: flex;
+}
+.footer-section h3 {
+  font-size: 15px;
+  text-decoration: underline;
+  color: var(--main);
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.links ol li a {
+  color: var(--peace);
+  text-transform: capitalize;
+}
+span {
+  color: var(--citrine);
+}
