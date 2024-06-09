@@ -1,2 +1,1 @@
-this is hospital 🏥 website
-#contain everything about the ⛨ hospital 
+This is a hospital website.
